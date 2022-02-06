@@ -19,10 +19,15 @@ body{
     font-size: 20px;
     display: flex;
 }
-.nav, .camera{
+.nav{
     display: flex;
     justify-content: space-between;
     margin-left: 420px;
+    }
+    .first-part{
+        margin: 10px;
+        padding-right: 60%;
+        width: 500px;
     }
     .nav a{
         float: right;
@@ -43,10 +48,14 @@ body{
         padding: 10px 10px;
         color: black;
     }
-    /*.camera{
+    .camera{
+        padding-left: 70%;
+        height: 250px;
+        width: 250px;
+    }
+    .camera, .submit-button{
         display: flex;
-        justify-content: space-between;
-    }*/
+    }
 </style>
 </head>
 <body>
@@ -64,13 +73,15 @@ body{
             </span>
         </div>
     </header>
-<section class="first-part">
+    <div>
     <h1>Start your Journey as an influencer</h1>
 <p>It is no secret that influencers can earn great money from their social networking accounts or blogs. The popularity that social media has received in the last decade has made this profession a dream job for many people.</p>
-</section>
-<br><button type="submit">Pre-order now
+<button class="submit-button" type="submit">Pre-order now
     <a  href=""><i class="fas fa-arrow-right"></i></a>
 </button> 
-    <img class="camera" src="images/main-camera.png" alt="">
+    </div>
+    <div>
+        <img class="camera" src="images/main-camera.png" alt="">
+    </div>
 </body>
 </html>
