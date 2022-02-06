@@ -19,12 +19,12 @@ body{
     font-size: 20px;
     display: flex;
 }
-.topnav{
+.nav, .camera{
     display: flex;
     justify-content: space-between;
     margin-left: 420px;
     }
-    .topnav a{
+    .nav a{
         float: right;
         text-decoration: none;
         font-size: 15px;
@@ -36,17 +36,22 @@ body{
         }
     button{
         background-color: rgb(243, 103, 185);
-        border-radius: 5px;
+        border-radius: 15px;
         font-size: 1em;
+        font-weight: 700;
         border: 0;
-        padding: 5px 5px;
+        padding: 10px 10px;
         color: black;
     }
+    /*.camera{
+        display: flex;
+        justify-content: space-between;
+    }*/
 </style>
 </head>
 <body>
     <header class="heading">Influencer Products
-        <div class="topnav">
+        <div class="nav">
             <span>
             <a  href="">Home</a>
             <a  href="">Products</a>
@@ -59,11 +64,13 @@ body{
             </span>
         </div>
     </header>
-<h1>Start your Journey as an influencer</h1>
+<section class="first-part">
+    <h1>Start your Journey as an influencer</h1>
 <p>It is no secret that influencers can earn great money from their social networking accounts or blogs. The popularity that social media has received in the last decade has made this profession a dream job for many people.</p>
+</section>
 <br><button type="submit">Pre-order now
     <a  href=""><i class="fas fa-arrow-right"></i></a>
 </button> 
-    
+    <img class="camera" src="images/main-camera.png" alt="">
 </body>
 </html>
