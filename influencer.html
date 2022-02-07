@@ -53,6 +53,7 @@ nav a{
         float: right;
         margin-top: 25px;
         padding-right: 55px;
+        /*margin-bottom: 100px;*/
     }
     .seemore-button a{
         color: rgba(201, 2, 118, 0.884);
@@ -63,13 +64,14 @@ nav a{
         
     }
     .half-width{
-        width: 50%;
-        padding-left: 5%;
+       width: 50%;
+       padding-left: 50px;
+       padding-right: 50px;
     }
     .half-width img{
-        width: 70%;
-    }
-      .brand-catagory img{
+        width: 100%;
+    } 
+    .brand-catagory img{
         width: 100px;
         height: 50px;
         padding-left: 5%;
@@ -77,14 +79,13 @@ nav a{
         margin-left: 5px;
         margin-right: 50px;
        }
-       .photo-album{
+    .photo-album{
            display: flex;
            flex-wrap: wrap;
            align-items: center;
-           justify-content: center;
-           
+           justify-content: center;     
        }
-       .photo-frame{
+    .photo-frame{
         width: 300px;
         height: 550px;
         border: 2px solid whitesmoke;
@@ -96,19 +97,19 @@ nav a{
         box-shadow: 10px 10px 10px gray;
         padding: 10px;
        }
-       .photo-frame img{
+    .photo-frame img{
            width:280px;
            height: 250px;
            border-radius: 10px;
            padding: 10px;
            position: relative;
        }
-       .photo-detail{
+    .photo-detail{
         padding: 10px;
         width: 300px;
         height: 400px;    
        }
-       .photo-detail p{
+    .photo-detail p{
            font-size: 0.7em;
            margin-left:0 ;
            padding-right: 10px;  
@@ -116,9 +117,14 @@ nav a{
            margin-bottom: 5px;
            text-align: justify;       
        }
-       h2{
+    h2{
            text-align: center;
            margin-top: 100px;
+       }
+       .featured-item{
+           display: flex;
+           justify-content: space-between;
+           margin-top: 250px;
        }
  </style>
 </head>
@@ -160,7 +166,7 @@ nav a{
    <div class="brand-catagory">
    </div>
    <h2>Popular Collection</h2>
-   <section>
+   <section class="popular-item">
     <div class="photo-album">
         <div class="photo-frame">
              <div class="photo">
@@ -284,18 +290,16 @@ nav a{
    </section>
    <button class="seemore-button" type="submit">See More
     <a  href=""><i class="fas fa-arrow-right"></i></a>
-    </button> 
-    <section class="featured-item">
-        <div class="gear">
-            <img src="images/gear.png" alt="">
-        </div>
-        <div class="half-width">
-            <h2>Featured Products at one place</h2>
-            <p>Influencer Platforms act as support to make life easier for both agencies and brands when managing and working with influencers. An Influencer Marketing Platform is a software solution designed to assist brands with their Influencer Marketing Campaigns. Influencer Marketing Platforms provide influencer discovery tools for brands and agencies, some also offer massive searchable databases of potential influencers, using clever algorithms.</p>
-            <button class="submit-button" type="submit">Pre-order now
-            <a  href=""><i class="fas fa-arrow-right"></i></a>
-            </button> 
-            </div>
-    </section>
+    </button>
+<section class="featured-item">
+<div class="half-width">
+    <img src="images/gear.png" alt="">
+</div>
+<div class="half-width">
+    <h2>Featured Products at one place</h2>
+    <p> Influencer Platforms act as support to make life easier for both agencies and brands when managing and working with influencers. An Influencer Marketing Platform is a software solution designed to assist brands with their Influencer Marketing Campaigns.
+    </p>
+</div>
+    </section> 
 </body>
 </html>
