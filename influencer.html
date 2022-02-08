@@ -53,31 +53,30 @@ nav a{
         float: right;
         margin-top: 25px;
         padding-right: 55px;
-        /*margin-bottom: 100px;*/
     }
     .seemore-button a{
         color: rgba(201, 2, 118, 0.884);
     }
     section{
-        display: flex;
-        justify-content: space-between;
+            display: flex;
+            justify-content: space-between;
         
     }
     .half-width{
-       width: 50%;
-       padding-left: 50px;
-       padding-right: 50px;
+            width: 50%;
+            padding-left: 50px;
+            padding-right: 50px;
     }
     .half-width img{
-        width: 100%;
+            width: 100%;
     } 
     .brand-catagory img{
-        width: 100px;
-        height: 50px;
-        padding-left: 5%;
-        margin-top: 100px;
-        margin-left: 5px;
-        margin-right: 50px;
+            width: 100px;
+            height: 50px;
+            padding-left: 5%;
+            margin-top: 100px;
+            margin-left: 5px;
+            margin-right: 50px;
        }
     .photo-album{
            display: flex;
@@ -86,28 +85,28 @@ nav a{
            justify-content: center;     
        }
     .photo-frame{
-        width: 300px;
-        height: 550px;
-        border: 2px solid whitesmoke;
-        border-radius: 10px;
-        margin-left: 15px;
-        margin-right: 15px;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        box-shadow: 10px 10px 10px gray;
-        padding: 10px;
+            width: 300px;
+            height: 550px;
+            border: 2px solid whitesmoke;
+            border-radius: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top: 15px;
+            margin-bottom: 15px;
+            box-shadow: 8px 8px 8px 8px lightgrey;
+            padding: 10px;
        }
     .photo-frame img{
-           width:280px;
-           height: 250px;
-           border-radius: 10px;
-           padding: 10px;
-           position: relative;
+            width:280px;
+            height: 250px;
+            border-radius: 10px;
+            padding: 10px;
+            position: relative;
        }
     .photo-detail{
-        padding: 10px;
-        width: 300px;
-        height: 400px;    
+            padding: 10px;
+            width: 300px;
+            height: 400px;    
        }
     .photo-detail p{
            font-size: 0.7em;
@@ -121,15 +120,15 @@ nav a{
            text-align: center;
            margin-top: 100px;
        }
-       .featured-item{
+    .featured-item{
            display: flex;
            justify-content: space-between;
            margin-top: 250px;
            margin-bottom: 100px;
        }
-       .join-button{
+    .join-button{
         background-color: rgba(201, 2, 118, 0.884);
-        font-size: 20px;
+        font-size: 1em;
         font-weight: 700;
         border-radius: 0;
         padding: 10px 18px;
@@ -143,13 +142,14 @@ nav a{
         background: rgb(21, 2, 36);
         text-align: center;
         color: white;
-        padding-top: 10px;
-
-        
+        padding-top: 10px;  
     }
     footer a{
         color: white;
         padding-left: 20px;
+    }
+    .checked{
+        color: gold;
     }
  </style>
 </head>
@@ -182,13 +182,13 @@ nav a{
         </div>
    </section>
    <div class="brand-catagory">
+    <p>
     <img src="images/alibaba-logo-removebg-preview.png" alt="">
-    <img src="images/amazon-logo.png" alt="">
+    <img src="images/amazon-preview.png" alt="">
     <img src="images/daraz-logo-removebg-preview.png" alt="">
-    <img src="images/ebay-logo-preview.png" alt="">
-    <img src="images/walmart-logo-preview.png" alt="">
-   </div>
-   <div class="brand-catagory">
+    <img src="images/ebay-preview.png" alt="">
+    <img src="images/Walmart-preview.png" alt="">
+    </p>
    </div>
    <h2>Popular Collection</h2>
    <section class="popular-item">
@@ -200,7 +200,11 @@ nav a{
             <div class="photo-detail">
             <h3>Flex Tripod</h3>
             <h4>$17.99</h4>
-            <h6>4.99</h6>
+            <h6><span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 Capture amazing footage with your camera with this Bower XAS-BPG 26" flex tripod that features durable, weather-resistant legs and rubber feet for secure positioning. A 360° ball head provides horizontal shooting versatility.
              </p>
@@ -213,7 +217,12 @@ nav a{
             <div class="photo-detail">
             <h3>microphone</h3>
             <h4>$120.25</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 USB microphones are all-in-one devices that make it easier for users to get started recording or streaming audio. Most USB mics are either dynamic or condenser, both ideal options for recording vocals and musical instruments, and have an in-built audio interface that negates the need for separate hardware.
 
@@ -227,7 +236,12 @@ nav a{
             <div class="photo-detail">
             <h3>Air Pod</h3>
             <h4>$100</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 The Apple AirPods Pro Truly Wireless are the best wireless earbuds for iPhone we've tested. These earbuds have an H1 chip, allowing you to seamlessly pair them with other devices in your Apple ecosystem.
              </p>
@@ -240,9 +254,14 @@ nav a{
             <div class="photo-detail">
             <h3>Drone</h3>
             <h4>$980.25</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
-                if you’re looking for a quad that will add a pinch of creativity to your content, I recommend the DJI Mavic 2 Zoom. It has similar features, but the camera has an extra option that allows filming objects far away. Even more, you get to do dolly-zoom shots in just a few minutes!
+                if you are looking for a quad that will add a pinch of creativity to your content, I recommend the DJI Mavic 2 Zoom. It has similar features, but the camera has an extra option that allows filming objects far away. Even more, you get to do dolly-zoom shots in just a few minutes!
              </p>
             </div>   
         </div>
@@ -253,7 +272,12 @@ nav a{
             <div class="photo-detail">
             <h3>Light Setup</h3>
             <h4>$1200</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 Lighting is one of the key elements to produce high quality videos and photos.  Whether you're a photographer, vlogger, wedding videographer, Tik Toker or general content creator, I believe you will find my information and recommendations useful in order for you to choose the best vlogging and live streaming lighting options.
              </p>
@@ -266,7 +290,12 @@ nav a{
             <div class="photo-detail">
             <h3>Photoshoot set</h3>
             <h4>$820.48</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 Put together for the image maker who requires a budget-friendly setup with color and power options, the 800D-RGB LED Studio 3-Video Light Kit from GVM is just the ticket. The kit ships with three 10.6 x 10.3 x 1.6" 800D-RGB Panels with CCT and RGB color control and Barndoors. 
              </p>
@@ -279,7 +308,12 @@ nav a{
             <div class="photo-detail">
             <h3>Vlogging Camera</h3>
             <h4>$1800.80</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 The Sony A6400 is a top-value and very easy-to-use mirrorless camera that offers something for every blogging and vlogging niche. Even though it’s lightweight and beginner-friendly, it also delivers professional results.
              </p>
@@ -292,7 +326,12 @@ nav a{
             <div class="photo-detail">
             <h3>Green Screen</h3>
             <h4>$25.48</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 The Neewer Chromakey Collapsible Backdrop is a fantastic choice for live streaming with pop-up functionality for quick setup, double-sided green and blue screens for better flexibility, and a whole host of other excellent features.
              </p>
@@ -305,7 +344,12 @@ nav a{
             <div class="photo-detail">
             <h3>Action Camera</h3>
             <h4>$380</h4>
-            <h6>4.99</h6>
+            <h6>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span i class="fas fa-star-half-alt checked"></i></span>4.99</h6>
             <p>     
                 If you have a bigger budget and don't mind a slightly larger camera, though, then a mirrorless camera with interchangeable lenses could be a better choice. Our pick here is the Fujifilm X-S10. 
              </p>
